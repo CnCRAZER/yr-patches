@@ -39,7 +39,6 @@ jobs:
         repository: CnCNet/yr-patches-private
         path: 'cncnet'
         ssh-key: ${{ secrets.CNCNET_CI_SSH_PRIVATEKEY }}
-        ref: ra2modeart   # <-- Set your desired branch here
 
     - name: Build yr-patches
       uses: ./.github/actions/build
